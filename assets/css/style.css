@@ -17,6 +17,17 @@ body {
 /*Header*/
 header {
     background-color: rgb(247, 229, 206);
+    padding: 0 3rem;
+    position:fixed;
+    z-index: 98;
+    width: 100%;
+}
+header a{
+    text-decoration: none;
+    color:inherit;
+}
+h1{
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 ul {
     list-style: none;
