@@ -1,6 +1,5 @@
 /* Google fonts import */
-
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Montserrat:ital,wght@1,300&family=Nunito+Sans:opsz,wght@6..12,200&family=Playfair+Display:wght@400;500&family=Syne:wght@700&family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@300&family=Montserrat+Alternates:wght@300;800&display=swap');
 /* Asterisk wildcard selector to override default styles added by the browser*/
 *{
 padding: 0;
@@ -13,11 +12,14 @@ body {
     display: flex;
     flex-direction: column;
     color: #000000;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Hind Guntur', sans-serif;
 }
 /*Header*/
 header {
     background-color: rgb(247, 229, 206);
+}
+ul {
+    list-style: none;
 }
 /*Main*/
 main {
