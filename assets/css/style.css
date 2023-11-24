@@ -15,7 +15,7 @@ body {
     font-family: 'Hind Guntur', sans-serif;
 }
 /*Header*/
-.header{
+header{
     position: sticky;
     top: 0;
     left: 0;
@@ -24,13 +24,15 @@ body {
     background-color: #fff1dc;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
     z-index: 100;
 }
 .logo{
-    font-size: 30px;
-    color: inherit;
     text-decoration: none;
+}
+h1{
+    font-size: 30px;
+    color: black;
     font-weight: bold;
     text-transform: uppercase;
     word-spacing: 8px;
@@ -39,7 +41,7 @@ body {
 .logo:hover{
     transform: scale(1.1);
 }
-.navbar li{
+.navbar>li{
     list-style-type: none;
     display: inline;
 }    
@@ -68,11 +70,14 @@ body {
 .active{
     border-bottom: 1px solid#3a98b9;
 }
+/* burger menu icon*/
+
 /*Main*/
 main {
     background-color: #eeeeee;
     /* Make main element take up any space to push footer down*/
     flex:1 0 auto;
+    margin-top: 1px;
 }
 /*Footer*/
 footer {
