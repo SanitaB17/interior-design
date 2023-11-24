@@ -11,34 +11,64 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: #000000;
+    color:black;
     font-family: 'Hind Guntur', sans-serif;
 }
 /*Header*/
-header {
-    background-color: rgb(247, 229, 206);
-    padding: 0 3rem;
-    position:fixed;
-    z-index: 98;
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
+    padding: 14px 30px;
+    background-color: #fff1dc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
 }
-header a{
+.logo{
+    font-size: 30px;
+    color: inherit;
     text-decoration: none;
-    color:inherit;
+    font-weight: bold;
+    text-transform: uppercase;
+    word-spacing: 8px;
+    letter-spacing: 2px;
 }
-h1{
-    font-family: 'Montserrat Alternates', sans-serif;
+.navbar li{
+    list-style-type: none;
+    display: inline;
+}    
+.navbar a{
+    position: relative;
+    text-decoration: none;
+    font-size: large;
+    color: black;
+    font-size: 18px;
+    margin-left: 30px;
 }
-ul {
-    list-style: none;
+.navbar a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: black;
+    transition: .4s;
+}
+.navbar a:hover::before{
+    width: 100%;
+    background-color: #3a98b9;
 }
 /*Main*/
 main {
-    background-color: rgb(229, 230, 231);
+    background-color: #eeeeee;
     /* Make main element take up any space to push footer down*/
     flex:1 0 auto;
 }
 /*Footer*/
 footer {
-    background-color: rgba(95, 92, 92, 0.541);
+    background-color: #3a98b9;
 }
