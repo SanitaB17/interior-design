@@ -12,7 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     color:black;
-    font-family: 'Hind Guntur', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif
 }
 /*Header*/
 header{
@@ -31,6 +31,7 @@ header{
     text-decoration: none;
 }
 h1{
+    font-family:'Hind Guntur', sans-serif;
     font-size: 30px;
     color: black;
     font-weight: bold;
@@ -41,11 +42,14 @@ h1{
 .logo:hover{
     transform: scale(1.1);
 }
-.navbar>li{
+.navbar{
     list-style-type: none;
     display: inline;
+}
+.navbar>li{
+    margin-bottom: 1em;
 }    
-.navbar a{
+nav a{
     position: relative;
     text-decoration: none;
     font-size: large;
@@ -53,7 +57,7 @@ h1{
     font-size: 18px;
     margin-left: 30px;
 }
-.navbar a::before{
+nav a::before{
     content: '';
     position: absolute;
     top: 100%;
@@ -63,15 +67,33 @@ h1{
     background: black;
     transition: .4s;
 }
-.navbar a:hover::before{
+nav a:hover::before{
     width: 100%;
     background-color: #3a98b9;
 }
 .active{
     border-bottom: 1px solid#3a98b9;
 }
-/* burger menu icon*/
-
+/* Nav toggle */
+nav {
+    position: absolute;
+    background-color:#fff1dc;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 3px 14px #3a98b9;
+    display: none;
+    top: 100%;
+}
+#nav-toggle:checked~nav {
+    display: block;
+}
+#nav-toggle {
+    display: none;
+}
+.nav-toggle-label {
+    font-size: 2rem;
+}
 /*Main*/
 main {
     background-color: #eeeeee;
@@ -85,22 +107,13 @@ footer {
 }
 
 /* Media query: large or landscape phones (576px and up) */
-@media screen and (min-width: 576px){
-
-}
+@media screen and (min-width: 576px){}
 
 /* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px){
-
-}
+@media screen and (min-width: 768px){}
 
 /* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px){
+@media screen and (min-width: 992px){}
 
 
-}
-
-
-@media screen and (min-width: 1200px){
-
-}
+@media screen and (min-width: 1200px){}
