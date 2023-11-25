@@ -118,16 +118,16 @@ footer {
     color: #fff1dc;
 }
 .instagram:hover{
-        transform: scale(1.2);
+        transform: scale(1.5);
 }
 .facebook:hover{
-    transform: scale(1.2);
+    transform: scale(1.5);
 }
 .houzz:hover{
-    transform: scale(1.2);
+    transform: scale(1.5);
 }
 .pinterest:hover{
-    transform: scale(1.2);
+    transform: scale(1.5);
 }
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px){}
