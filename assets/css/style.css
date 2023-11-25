@@ -4,6 +4,7 @@
 *{
 padding: 0;
 margin: 0;
+text-decoration: none;
 box-sizing: border-box;
 }
 /*General styles*/
@@ -27,9 +28,6 @@ header{
     align-items: baseline;
     z-index: 100;
 }
-.logo{
-    text-decoration: none;
-}
 h1{
     font-family:'Hind Guntur', sans-serif;
     font-size: 30px;
@@ -39,7 +37,7 @@ h1{
     word-spacing: 8px;
     letter-spacing: 2px;
 }
-.logo:hover{
+h1:hover{
     transform: scale(1.1);
 }
 .navbar{
@@ -51,8 +49,6 @@ h1{
 }    
 nav a{
     position: relative;
-
-    
     text-decoration: none;
     font-size: large;
     color: black;
