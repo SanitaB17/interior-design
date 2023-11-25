@@ -44,18 +44,20 @@ h1{
 }
 .navbar{
     list-style-type: none;
-    display: inline;
+    display: inline-flex;
 }
 .navbar>li{
     margin-bottom: 1em;
 }    
 nav a{
     position: relative;
+
+    
     text-decoration: none;
     font-size: large;
     color: black;
     font-size: 18px;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 nav a::before{
     content: '';
@@ -75,24 +77,13 @@ nav a:hover::before{
     border-bottom: 1px solid#3a98b9;
 }
 /* Nav toggle */
-nav {
-    position: absolute;
-    background-color:#fff1dc;
-    width: 100%;
-    left: 0;
-    padding: 0 1rem;
-    box-shadow: 0 3px 14px #3a98b9;
+.nav-toggle-label{
+    float: right;
+    cursor:pointer;
+    display: none;/*hides menu icon*/
+}
+#nav-toggle{
     display: none;
-    top: 100%;
-}
-#nav-toggle:checked~nav {
-    display: block;
-}
-#nav-toggle {
-    display: none;
-}
-.nav-toggle-label {
-    font-size: 2rem;
 }
 /*Main*/
 main {
@@ -136,7 +127,11 @@ footer {
 @media screen and (min-width: 768px){}
 
 /* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px){}
+@media screen and (min-width: 992px){
+    .nav-button{
+        display:none;
+    }
+}
 
 
 @media screen and (min-width: 1200px){}
