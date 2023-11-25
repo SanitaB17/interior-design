@@ -105,7 +105,30 @@ main {
 footer {
     background-color: #3a98b9;
 }
-
+#social-networks{
+    text-align: center;
+    padding: 18px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+#social-networks i{
+    font-size: 120%;
+    padding: 2%;
+    color: #fff1dc;
+}
+.instagram:hover{
+        transform: scale(1.2);
+}
+.facebook:hover{
+    transform: scale(1.2);
+}
+.houzz:hover{
+    transform: scale(1.2);
+}
+.pinterest:hover{
+    transform: scale(1.2);
+}
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px){}
 
