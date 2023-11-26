@@ -79,7 +79,7 @@ nav a:hover::before{
 .nav-toggle-label{
     float: right;
     cursor:pointer;
-    display: none;/*hides menu icon*/
+    display:none;/*hides menu icon*/
 }
 #nav-toggle{
     display: none;
@@ -120,17 +120,17 @@ footer {
     transform: scale(1.5);
 }
 /* Media query: large or landscape phones (576px and up) */
-@media screen and (min-width: 576px){}
+@media screen and (max-width: 576px){}
 
 /* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px){}
-
-/* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px){
-    .nav-button{
-        display:none;
+@media screen and (min-width: 768px){
+    .nav-toggle-label {
+        display: none;
     }
 }
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px){}
 
 
 @media screen and (min-width: 1200px){}
