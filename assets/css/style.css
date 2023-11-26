@@ -21,7 +21,7 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 12px 30px;
+    padding: 1rem 1.4rem;
     background-color: #fff1dc;
     display: flex;
     justify-content: space-between;
@@ -67,7 +67,7 @@ h1{
 }
 .navbar a:hover::before{
     width: 100%;
-    background-color: #3a98b9;
+    background-color: sandybrown;
 }
 .navbar .active{
     border-bottom: 1px solid#3a98b9;
@@ -82,7 +82,6 @@ nav{
     cursor: pointer;
     text-align: center;
     display: none;
-    
 }
 /* Nav toggle */
 #nav-toggle:checked~nav{
@@ -100,11 +99,15 @@ nav{
 }
 /*Main*/
 main {
-    background-color: #eeeeee;
     /* Make main element take up any space to push footer down*/
     flex:1 0 auto;
-    margin-top: 60px;
-    padding: 20px;
+    margin-top: 68px;
+}
+/*Hero section*/
+#hero{
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero-image.jpg") no-repeat center center/cover;
 }
 /*Footer*/
 footer {
@@ -148,7 +151,7 @@ footer p{
 @media screen and (min-width: 768px){
     /*Header*/
     h1{
-        font-size: 30px;
+        font-size: 26px;
     }
     nav{
         display: block;
@@ -163,16 +166,18 @@ footer p{
         padding-right: 4px;
     }
     .navbar a{
-        font-size: 18px;
+        font-size: 20px;
     }
     .nav-toggle-label{
         display: none;
     }
+    footer p{
+        font-size: small;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px){
-}
+@media screen and (min-width: 992px){}
 
 
 @media screen and (min-width: 1200px){}
