@@ -26,24 +26,22 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    z-index: 100;
+    z-index: 98;
+}
+header a:hover{
+    transform: scale(1.1);
 }
 h1{
     font-family:'Hind Guntur', sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     color: black;
     font-weight: bold;
     text-transform: uppercase;
     word-spacing: 8px;
     letter-spacing: 2px;
 }
-h1:hover{
-    transform: scale(1.1);
-}
-.navbar{
-    list-style-type: none;
-}
 .navbar>li{
+    list-style-type: none;
     margin-bottom: 1em;
 } 
 .navbar li:hover{
@@ -54,7 +52,7 @@ h1:hover{
     text-decoration: none;
     font-size: large;
     color: black;
-    font-size: 18px;
+    font-size: 16px;
     margin-left: 20px;
 }
 .navbar a::before{
@@ -94,7 +92,7 @@ nav{
     display:none;
 }
 .nav-toggle-label{
-    font-size: 1.2rem;
+    font-size: 1rem;
     cursor: pointer;
 }
 .nav-toggle-label:hover{
@@ -105,11 +103,19 @@ main {
     background-color: #eeeeee;
     /* Make main element take up any space to push footer down*/
     flex:1 0 auto;
-    margin-top: 1px;
+    margin-top: 60px;
+    padding: 20px;
 }
 /*Footer*/
 footer {
     background-color: #3a98b9;
+}
+footer p{
+    text-align: center;
+    color:black;
+    font-size: xx-small;
+    padding-left: 6px;
+    padding-bottom: 6px;
 }
 #social-networks{
     text-align: center;
@@ -136,13 +142,28 @@ footer {
     transform: scale(1.5);
 }
 /* Media query: large or landscape phones (576px and up) */
-@media screen and (max-width: 576px){}
+@media screen and (min-width: 576px){}
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px){
     /*Header*/
+    h1{
+        font-size: 30px;
+    }
     nav{
         display: block;
+        position: relative;
+        width: auto;
+        padding-right: 1rem;
+    }
+    .navbar{
+        display: flex;
+    }
+    .navbar li{
+        padding-right: 4px;
+    }
+    .navbar a{
+        font-size: 18px;
     }
     .nav-toggle-label{
         display: none;
@@ -151,15 +172,6 @@ footer {
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px){
-    nav{
-        display: none;
-    }
-    .nav-toggle-label{
-        display: none;
-    }
-    .navbar li{
-        display: inline-block;
-    }
 }
 
 
