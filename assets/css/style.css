@@ -62,15 +62,15 @@ h1{
     left: 0;
     width: 0;
     height: 2px;
-    background-color: rgb(0, 255, 229);
+    background-color: #7db155;
     transition: .4s;
 }
 .navbar a:hover::before{
     width: 100%;
-    background-color: sandybrown;
+    background-color: #cd7c0c;
 }
 .navbar .active{
-    border-bottom: 1px solid#3a98b9;
+    border-bottom: 1px solid#698aab;
 }
 /* Nav bar styles wit Menu icon*/
 nav{
@@ -111,7 +111,7 @@ main {
 }
 /*Footer*/
 footer {
-    background-color: #3a98b9;
+    background-color: #384e6a;
 }
 footer p{
     text-align: center;
@@ -130,7 +130,7 @@ footer p{
 #social-networks i{
     font-size: 120%;
     padding: 2%;
-    color: #fff1dc;
+    color: #dedede;
 }
 .instagram:hover{
         transform: scale(1.5);
