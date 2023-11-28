@@ -158,7 +158,12 @@ footer p{
     transform: scale(1.5);
 }
 /* Media query: large or landscape phones (576px and up) */
-@media screen and (min-width: 576px){}
+@media screen and (min-width: 576px){
+    #hero-text{
+        bottom: 10rem;
+        left:4rem;
+    }
+}
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px){
@@ -187,14 +192,9 @@ footer p{
     footer p{
         font-size: small;
     }
-    #hero-text{
-        bottom: 24rem;
-        left: 3rem;
-    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px){}
-
 
 @media screen and (min-width: 1200px){}
