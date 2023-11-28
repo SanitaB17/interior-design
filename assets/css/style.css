@@ -28,7 +28,7 @@ header{
     align-items: baseline;
     z-index: 98;
 }
-header a:hover{
+header h1:hover{
     transform: scale(1.1);
 }
 h1{
