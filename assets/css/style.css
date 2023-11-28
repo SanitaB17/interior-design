@@ -111,12 +111,16 @@ main {
 }
 #hero-text{
     font-family:'Hind Guntur', sans-serif;
+    text-align: center;
     font-size: 84%;
     background-color: rgb(250, 250, 250, .6);
     position: absolute;
-    bottom: 7.6rem;
+    bottom:5rem;
+    left: 1rem;
     width: 88%;
     padding: 1.6rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
 }
 /*Footer*/
 footer {
@@ -127,18 +131,18 @@ footer p{
     color:black;
     font-size: xx-small;
     padding-left: 6px;
-    padding-bottom: 6px;
+    padding-bottom: 7px;
 }
 #social-networks{
     text-align: center;
-    padding: 18px 0;
+    padding-top: 18px;
+    padding-bottom: 4px;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
 }
 #social-networks i{
     font-size: 120%;
-    padding: 2%;
     color: #dedede;
 }
 .instagram:hover{
@@ -184,13 +188,24 @@ footer p{
         font-size: small;
     }
     #hero-text{
-        width: 300px;
-
+        bottom: 24rem;
+        left: 3rem;
     }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px){}
+@media screen and (min-width: 992px){
+    #hero-text{
+        bottom: 46rem;
+        left: 3.8rem;
+    }
+}
 
 
-@media screen and (min-width: 1200px){}
+@media screen and (min-width: 1200px){
+    #hero-text{
+        width: 60%;
+        bottom: 20rem;
+        left: 32rem;
+    }
+}
