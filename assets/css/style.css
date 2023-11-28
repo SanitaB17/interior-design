@@ -128,7 +128,7 @@ footer {
 }
 footer p{
     text-align: center;
-    color:#fff1dc;
+    color: #dedede;
     font-size: xx-small;
     padding-left: 6px;
     padding-bottom: 8px;
@@ -197,8 +197,8 @@ footer p{
         left: 44px;
     }
 }
-
-/* Large devices (laptops and desktops, 992px and up) */
+/*
+Large devices (laptops and desktops, 992px and up) 
 @media screen and (min-width: 800px){
     #hero-text{
         bottom: 140px;
@@ -213,3 +213,4 @@ footer p{
     }
 }
 @media screen and (min-width: 1000px)
+*/
