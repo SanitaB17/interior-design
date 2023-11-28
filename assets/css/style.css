@@ -194,18 +194,7 @@ footer p{
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px){
-    #hero-text{
-        bottom: 46rem;
-        left: 3.8rem;
-    }
-}
+@media screen and (min-width: 992px){}
 
 
-@media screen and (min-width: 1200px){
-    #hero-text{
-        width: 60%;
-        bottom: 20rem;
-        left: 32rem;
-    }
-}
+@media screen and (min-width: 1200px){}
