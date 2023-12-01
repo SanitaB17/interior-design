@@ -105,7 +105,7 @@ main {
 #hero{
     height: 600px;
     width: 100%;
-    background-image: url("../images/hero_image.webp") no-repeat center center/cover;
+    background: url("../images/hero_image.webp") no-repeat center center/cover;
     background-color: #384e6a;
 }
 #hero-text{
@@ -120,6 +120,10 @@ main {
     padding: 1.6rem;
     border-top-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
+}
+/*Main content*/
+.left img{
+
 }
 /*Footer*/
 footer {
