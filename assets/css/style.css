@@ -134,6 +134,8 @@ main {
     padding-top: 3% 4%;
     display: inline;
     float: left;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
 }
 .left-title{
     padding: 50px;
@@ -155,6 +157,8 @@ ol li{
     margin: 3% 4%;
     display: inline;
     float: right;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
 }
 /*Footer*/
 footer {
