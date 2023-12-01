@@ -102,11 +102,13 @@ main {
     margin-top: 68px;
 }
 /*Hero section*/
+.hero-background{
+    background-color: #698aab;
+}
 #hero{
     height: 600px;
     width: 100%;
     background: url("../images/hero_image.webp") no-repeat center center/cover;
-    background-color: #384e6a;
 }
 #hero-text{
     font-family:'Hind Guntur', sans-serif;
