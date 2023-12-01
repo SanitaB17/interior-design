@@ -124,8 +124,37 @@ main {
     border-bottom-left-radius: 1rem;
 }
 /*Main content*/
+.side{
+    display: block;
+    text-align: justify;
+}
 .left img{
-
+    width: 45%;
+    margin: 3%;
+    padding-top: 3% 4%;
+    display: inline;
+    float: left;
+}
+.left-title{
+    padding: 50px;
+    text-align: center;
+    font-size: x-large;
+}
+.left ol li{
+    list-style-type: none;
+    padding-left: 2%;
+}
+ol h4{
+    padding: 2%;
+}
+ol li{
+    padding: 1%;
+}
+.right img{
+    width: 40%;
+    margin: 3% 4%;
+    display: inline;
+    float: right;
 }
 /*Footer*/
 footer {
