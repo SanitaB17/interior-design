@@ -160,6 +160,15 @@ ol li{
     border-top-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
 }
+/*Contact page*/
+#form-background{
+    height: 600;
+    width: 100%;
+    background: url("../images/form_background.webp");
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 30% 0;
+}
 /*Footer*/
 footer {
     background-color: #384e6a;
