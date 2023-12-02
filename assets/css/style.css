@@ -134,8 +134,8 @@ main {
     padding-top: 3% 4%;
     display: inline;
     float: left;
-    border-top-right-radius: 1rem;
-    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
 }
 .left-title{
     padding: 50px;
@@ -157,8 +157,8 @@ ol li{
     margin: 3% 4%;
     display: inline;
     float: right;
-    border-top-right-radius: 1rem;
-    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
 }
 /*Contact page*/
 #form-background{
@@ -244,7 +244,6 @@ footer p{
         left: 44px;
     }
 }
-/*
 Large devices (laptops and desktops, 992px and up) 
 @media screen and (min-width: 800px){
     #hero-text{
@@ -260,4 +259,3 @@ Large devices (laptops and desktops, 992px and up)
     }
 }
 @media screen and (min-width: 1000px)
-*/
