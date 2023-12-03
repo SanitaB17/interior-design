@@ -131,7 +131,6 @@ main {
 .left img{
     width: 45%;
     margin: 3%;
-    padding-top: 3% 4%;
     display: inline;
     float: left;
     border-top-right-radius: 2rem;
@@ -162,7 +161,6 @@ ol li{
 }
 /*Contact page*/
 #form-background{
-    height: 600;
     width: 100%;
     background: url("../images/form_background.webp");
     background-size: cover;
@@ -244,13 +242,8 @@ footer p{
         left: 44px;
     }
 }
-Large devices (laptops and desktops, 992px and up) 
-@media screen and (min-width: 800px){
-    #hero-text{
-        bottom: 140px;
-        left: 60px;
-    }
-}
+/*Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 800px){}
 
 @media screen and (min-width: 900px){
     #hero-text{
@@ -258,4 +251,4 @@ Large devices (laptops and desktops, 992px and up)
         left: 80px;
     }
 }
-@media screen and (min-width: 1000px)
+@media screen and (min-width: 1000px){}
