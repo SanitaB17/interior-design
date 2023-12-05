@@ -169,15 +169,56 @@ main {
     width: 25%;
     flex-wrap: wrap;
     border-top-right-radius: 1rem;
-    border-bottom-left-radius: 1rem
+    border-bottom-left-radius: 1rem;
 }
 /*Contact page*/
 #form-background{
     width: 100%;
     background: url("../images/form_background.webp");
     background-size: cover;
-    background-position: 75%;
-    padding: 20px 30% 0;
+    background-position: 60%;
+    padding: 10px 10% 0;
+}
+#form-background h2{
+    font-size: xx-large;
+    text-align: center;
+    padding: 2rem;
+    flex-grow: 1;
+}
+#contact-form{
+    width: 100%;
+    color: black;
+    text-transform: uppercase;
+    background-color: rgb(56, 78, 106, 0.4);
+    padding: 1rem;
+    font-size: large;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    left: 
+}
+/* code taken and modified from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_form*/
+input[type=text], input[type=tel], input[type=email], select, textarea{
+    padding: 12px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    border: 1px solid #384e6a;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+input[type=submit]{
+    color: #dedede;
+    background-color: #384e6a;
+    padding: 0.7rem;
+    cursor: pointer;
+    border: solid #384e6a;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+#times{
+    margin: 1rem;
+    padding: 1rem;
 }
 /*Footer*/
 footer {
@@ -215,9 +256,9 @@ footer p{
     transform: scale(1.5);
 }
 /* Media query: large or landscape phones (576px and up) */
-@media screen and (min-width: 500px){}
+@media screen and (min-width: 576px){}
 /* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 700px){
+@media screen and (min-width: 768px){
     /*Header*/
     h1{
         font-size: 26px;
@@ -259,11 +300,14 @@ footer p{
         border-top-right-radius: 2rem;
         border-bottom-left-radius: 2rem
     }
+
+    input[type=submit]:hover {
+        color: #384e6a;
+        background-color: #dedede;
+    }
 }  
 /*Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 800px){}
-
-@media screen and (min-width: 900px){
+@media screen and (min-width: 992px){
     #hero-text{
         bottom: 280px;
         left: 80px;
@@ -273,7 +317,7 @@ footer p{
         border-bottom-left-radius: 2rem
     }
 }
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 1200px){
     #hero-text{
         bottom: 320px;
     }

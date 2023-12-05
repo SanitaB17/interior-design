@@ -39,24 +39,22 @@
     <main>
         <section id="form-background">
             <h2>CONTACT US</h2>
-            <div class="container">
-                <form action="thank_you.html" method="get">
-                        <label for="fname">First Name*</label><br>
+                <form id="contact-form" action="thank_you.html" method="get">
+                        <label for="fname"><strong>First Name*</strong></label><br>
                         <input type="text" name="first_name" id="fname" placeholder="Enter your name" required><br>
-                        <label for="lname">Last Name*</label><br>
+                        <label for="lname"><strong>Last Name*</strong></label><br>
                         <input type="text" name="last_name" id="lname" placeholder="Enter your Last Name" required><br>
-                        <label for="phone">Phone Number:</label><br>
+                        <label for="phone"><strong>Phone Number:</strong></label><br>
                         <input type="tel" name="phone" id="phone" placeholder="+3531234567"><br>
-                        <label for="email_address">E-Mail:*</label><br>
+                        <label for="email_address"><strong>E-Mail:*</strong></label><br>
                         <input type="email" name="email_address" id="email_address" placeholder="example@idesign.com"><br>
-                        <label for="message">Message</label><br>
+                        <label for="message"><strong>Message</strong></label><br>
                         <!-- Textarea code from  https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_form-->
-                        <textarea id="message" name="message" placeholder="Your message"></textarea>
+                        <textarea id="message" name="message" placeholder="Your message"></textarea><br>
                     <input type="submit" value="Submit">
                 </form>
-            </div>
         </section>
-        <section>
+        <section id="times">
             <h4>Open times</h4>
             <table>
                 <tr>
