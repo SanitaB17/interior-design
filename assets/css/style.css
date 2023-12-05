@@ -177,7 +177,7 @@ main {
     background: url("../images/form_background.webp");
     background-size: cover;
     background-position: 60%;
-    padding: 10px 10% 0;
+    padding: 10%;
 }
 #form-background h2{
     font-size: xx-large;
@@ -194,7 +194,6 @@ main {
     font-size: large;
     border-top-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
-    left: 
 }
 /* code taken and modified from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_form*/
 input[type=text], input[type=tel], input[type=email], select, textarea{
@@ -206,6 +205,7 @@ input[type=text], input[type=tel], input[type=email], select, textarea{
     border: 1px solid #384e6a;
     border-top-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
+    
 }
 input[type=submit]{
     color: #dedede;
@@ -219,6 +219,18 @@ input[type=submit]{
 #times{
     margin: 1rem;
     padding: 1rem;
+}
+th {
+   padding-right: 10px;
+}
+td{
+    padding-right: 14px;
+}
+.contact-details {
+    padding-top: 1rem;
+}
+.address{
+    padding-top: 1rem;
 }
 /*Footer*/
 footer {
