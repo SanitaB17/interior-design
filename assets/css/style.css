@@ -26,9 +26,6 @@ header{
     align-items: baseline;
     z-index: 98;
 }
-header h1:hover{
-    transform: scale(1.1);
-}
 h1{
     font-family:'Hind Guntur', sans-serif;
     font-size: 20px;
@@ -42,9 +39,6 @@ h1{
     list-style-type: none;
     margin-bottom: 1em;
 } 
-.navbar li:hover{
-    transform: scale(1.2);
-}
 .navbar a{
     position: relative;
     text-decoration: none;
@@ -52,21 +46,6 @@ h1{
     color: black;
     font-size: 16px;
     margin-left: 20px;
-}
-/* code for underline effect taken and modified from https://www.youtube.com/watch?v=AkK8yHC4TlI&t=358s*/
-.navbar a::before{
-    content: '';
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background-color: #a8e265;
-    transition: .6s;
-}
-.navbar a:hover::before{
-    width: 100%;
-    background-color: #cd7c0c;
 }
 .navbar .active{
     border-bottom: 1px solid#698aab;
@@ -92,9 +71,6 @@ nav{
 .nav-toggle-label{
     font-size: 1rem;
     cursor: pointer;
-}
-.nav-toggle-label:hover{
-    transform: scale(1.5);
 }
 /*Main*/
 main {
@@ -205,7 +181,6 @@ input[type=text], input[type=tel], input[type=email], select, textarea{
     border: 1px solid #384e6a;
     border-top-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
-    
 }
 input[type=submit]{
     color: #dedede;
@@ -255,23 +230,14 @@ footer p{
     font-size: 150%;
     color: #dedede;
 }
-.instagram:hover{
-        transform: scale(1.5);
-}
-.facebook:hover{
-    transform: scale(1.5);
-}
-.houzz:hover{
-    transform: scale(1.5);
-}
-.pinterest:hover{
-    transform: scale(1.5);
-}
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px){}
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px){
     /*Header*/
+    header h1:hover{
+        transform: scale(1.1);
+    }
     h1{
         font-size: 26px;
     }
@@ -287,11 +253,32 @@ footer p{
     .navbar li{
         padding-right: 4px;
     }
+    .navbar li:hover{
+        transform: scale(1.2);
+    }
     .navbar a{
         font-size: 20px;
     }
     .nav-toggle-label{
         display: none;
+    }
+    .nav-toggle-label:hover{
+        transform: scale(1.5);
+    }
+    /* code for underline effect taken and modified from https://www.youtube.com/watch?v=AkK8yHC4TlI&t=358s*/
+    .navbar a::before{
+        content: '';
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background-color: #a8e265;
+        transition: .6s;
+    }
+    .navbar a:hover::before{
+        width: 100%;
+        background-color: #cd7c0c;
     }
     footer p{
         font-size: small;
@@ -317,7 +304,19 @@ footer p{
         color: #384e6a;
         background-color: #dedede;
     }
-}  
+  .instagram:hover{
+        transform: scale(1.5);
+    }
+    .facebook:hover{
+        transform: scale(1.5);
+    }
+    .houzz:hover{
+        transform: scale(1.5);
+    }
+    .pinterest:hover{
+        transform: scale(1.5);
+    }
+}
 /*Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px){
     #hero-text{
