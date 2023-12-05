@@ -53,6 +53,7 @@ h1{
     font-size: 16px;
     margin-left: 20px;
 }
+/* code for underline effect taken and modified from https://www.youtube.com/watch?v=AkK8yHC4TlI&t=358s*/
 .navbar a::before{
     content: '';
     position: absolute;
@@ -124,40 +125,51 @@ main {
     border-bottom-left-radius: 1rem;
 }
 /*Main content*/
-.side{
-    display: block;
-    text-align: justify;
-}
 .left img{
-    width: 45%;
+    width: 90%;
     margin: 3%;
     display: inline;
-    float: left;
     border-top-right-radius: 2rem;
     border-bottom-left-radius: 2rem;
 }
 .left-title{
-    padding: 50px;
+    padding-top: 10px;
     text-align: center;
     font-size: x-large;
 }
-.left ol li{
-    list-style-type: none;
-    padding-left: 2%;
-}
-ol h4{
-    padding: 2%;
-}
-ol li{
-    padding: 1%;
+.left p{
+    padding:10px 20px;
+    display: block;
 }
 .right img{
-    width: 40%;
+    width: 90%;
     margin: 3% 4%;
     display: inline;
-    float: right;
     border-top-right-radius: 2rem;
     border-bottom-left-radius: 2rem;
+}
+.right-text{
+    font-family:'Hind Guntur', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+}
+.right li{
+    font-family:'Hind Guntur', sans-serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+    display: block;
+}
+.container{
+    display: flex;
+    clear: both;
+}
+.column{
+    width: 25%;
+    flex-wrap: wrap;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem
 }
 /*Contact page*/
 #form-background{
@@ -203,13 +215,7 @@ footer p{
     transform: scale(1.5);
 }
 /* Media query: large or landscape phones (576px and up) */
-@media screen and (min-width: 500px){
-    #hero-text{
-        bottom: 180px;
-        left:2rem;
-    }
-}
-
+@media screen and (min-width: 500px){}
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 700px){
     /*Header*/
@@ -241,14 +247,37 @@ footer p{
         bottom: 240px;
         left: 44px;
     }
-}
+    .left img{
+        float: left;
+        width: 40%;
+    }
+    .right img{
+        float: right;
+        width: 45%;
+    }
+    .column{
+        border-top-right-radius: 2rem;
+        border-bottom-left-radius: 2rem
+    }
+}  
 /*Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 800px){}
 
 @media screen and (min-width: 900px){
     #hero-text{
-        bottom: 180px;
+        bottom: 280px;
         left: 80px;
     }
+    .column{
+        border-top-right-radius: 2rem;
+        border-bottom-left-radius: 2rem
+    }
 }
-@media screen and (min-width: 1000px){}
+@media screen and (min-width: 1000px){
+    #hero-text{
+        bottom: 320px;
+    }
+    .left-title{
+        padding-top: 3rem;
+    }
+}
