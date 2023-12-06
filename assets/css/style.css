@@ -79,9 +79,6 @@ main {
     margin-top: 68px;
 }
 /*Hero section*/
-.hero-background{
-    background-color: #698aab;
-}
 #hero{
     height: 600px;
     width: 100%;
@@ -123,12 +120,15 @@ main {
     display: inline;
     border-top-right-radius: 2rem;
     border-bottom-left-radius: 2rem;
+    clear: both;
 }
 .right-text{
     font-family:'Hind Guntur', sans-serif;
     text-transform: uppercase;
+    font-size: x-large;
     text-align: center;
     display: block;
+    clear: left;
 }
 .right li{
     font-family:'Hind Guntur', sans-serif;
@@ -136,6 +136,11 @@ main {
     text-decoration: underline;
     text-align: center;
     display: block;
+}
+.our-gallery h4{
+    text-align: center;
+    padding: 2rem;
+    clear: both;
 }
 .container{
     display: flex;
@@ -279,30 +284,46 @@ footer p{
     .navbar a:hover::before{
         width: 100%;
         background-color: #cd7c0c;
-    }
-    footer p{
-        font-size: small;
-    }
-    #hero-text{
-        bottom: 240px;
+    } #hero-text{
         left: 44px;
+    }
+    /* main text home page*/
+    .left-title{
+        padding-top: 8rem;
     }
     .left img{
         float: left;
-        width: 40%;
+        width: 30%;
     }
     .right img{
         float: right;
-        width: 45%;
+        width: 35%;
+    }
+    .right-text{
+        padding-top: 6rem;
     }
     .column{
         border-top-right-radius: 2rem;
-        border-bottom-left-radius: 2rem
+        border-bottom-left-radius: 2rem;
+    } 
+/*contact us*/
+    #form-background{
+        background-position: center;
+        position: relative;
     }
-
+    #contact-form{
+        max-width: 500px;
+        right: 40%;
+        border-top-right-radius: 2rem;
+        border-bottom-left-radius: 2rem;
+    }
     input[type=submit]:hover {
         color: #384e6a;
         background-color: #dedede;
+    }
+    /* footer*/
+    footer p{
+        font-size: small;
     }
   .instagram:hover{
         transform: scale(1.5);
@@ -326,7 +347,7 @@ footer p{
     .column{
         border-top-right-radius: 2rem;
         border-bottom-left-radius: 2rem
-    }
+    } 
 }
 @media screen and (min-width: 1200px){
     #hero-text{
