@@ -208,6 +208,7 @@ main {
 /* code taken and modified from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_form*/
 input[type=text], input[type=tel], input[type=email], select, textarea{
     max-width: 100%;
+    width:560px;
     padding: 12px;
     box-sizing: border-box;
     margin-top: 6px;
@@ -237,11 +238,6 @@ input[type=submit]{
 .table-times{
     padding-right: 0.5rem;
 }
-/* <----------------------------- contact page ------------------------------->*/
-
-.#contact-form p{
-    font-weight: bolder;
-}
 /*Footer*/
 footer {
     background-color: #384e6a;
@@ -269,7 +265,7 @@ footer p{
 @media screen and (min-width: 576px){
   
     #contact-form{
-        max-width: 560px;
+        max-width: 760px;
     }
     #times-container{
         flex-direction: row;
@@ -391,7 +387,7 @@ footer p{
         margin-right: 1.6rem;
     }
     input[type=text], input[type=tel], input[type=email], select, textarea{
-    width:700px;
+    width:760px;
     font-size: 22px;
     }
     input[type=submit]{
