@@ -397,6 +397,7 @@ footer p{
     input[type=submit]:hover {
         color: #384e6a;
         background-color: #dedede;
+        transform: scale(1.2);
     }
     /*<----------------------------------------- THANK YOU PAGE -------------->*/
 
