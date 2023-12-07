@@ -237,6 +237,11 @@ input[type=submit]{
 .table-times{
     padding-right: 0.5rem;
 }
+/* <----------------------------- contact page ------------------------------->*/
+
+.#contact-form p{
+    font-weight: bolder;
+}
 /*Footer*/
 footer {
     background-color: #384e6a;
@@ -396,7 +401,8 @@ footer p{
         color: #384e6a;
         background-color: #dedede;
     }
-    
+    /*<----------------------------------------- THANK YOU PAGE -------------->*/
+
     /* footer*/
     footer p{
         font-size: small;
