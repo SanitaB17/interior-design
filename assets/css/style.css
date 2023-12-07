@@ -261,6 +261,15 @@ footer p{
     font-size: 150%;
     color: #dedede;
 }
+/*<---------------------------------- 404 PAGE ----------------->*/
+#nf-container{
+    width: 100%;
+    margin: 30%;
+}
+#nf-container h1{
+    font-size: 100px;
+    font-weight: 400;
+}
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px){
   
@@ -316,6 +325,7 @@ footer p{
         font-size: 20px;
     }
     .nav-toggle-label{
+        visibility: hidden;
         display: none;
     }
     .nav-toggle-label:hover{
