@@ -166,7 +166,7 @@ main {
 }
 .about img{
     width: 90vw;
-    margin: 3% 4%;
+    margin: 2%;
     display: inline;
     border-top-right-radius: 2rem;
     border-bottom-left-radius: 2rem;
@@ -176,7 +176,7 @@ main {
     text-transform: uppercase;
 }
 .about-us-text{
-    padding: 2rem 1rem
+    padding: 2rem 1rem;
 }
 /*<-----------------------------------------------------------Contact page------------------------------------------------------------------------------->*/
 #form-background{
