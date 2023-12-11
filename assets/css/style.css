@@ -513,6 +513,9 @@ footer p{
 .gallery{
     column-count: 4;
 }
+.image{
+    padding: 1rem;
+}
 /*<----------------------------------------------------CONTACT US PAGE--------------------------->*/
 #form-background h2{
     font-size: 38px;
@@ -551,6 +554,9 @@ footer p{
 @media screen and (min-width: 1200px){
     #hero-text{
         top: 300px;
+    }
+    .image{
+        padding: 1.5rem;
     }
     #form-background h2{
         text-align: left;
