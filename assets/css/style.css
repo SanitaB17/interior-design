@@ -236,7 +236,6 @@ main {
 }
 #contact-form h3{
     text-align: center;
-    padding-left: 0;
 }
 /* code taken and modified from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_form*/
 input[type=text], input[type=tel], input[type=email], select, textarea{
@@ -260,16 +259,17 @@ input[type=submit]{
     border-top-right-radius: 1rem;
     border-bottom-left-radius: 1rem;
 }
+#times{
+    padding: 1rem;
+}
 #times-container{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: baseline;
-    gap: 1rem;
-    padding: 1rem 2rem;
 }
-.table-times{
-    padding-right: 0.5rem;
+#times-container >div{
+    padding-top: 1rem;
 }
 /*Footer*/
 footer {
@@ -329,9 +329,6 @@ footer p{
         border-bottom-left-radius: 2rem;
     }
     /*Header*/
-    header h1:hover{
-        transform: scale(1.1);
-    }
     h1{
         font-size: 28px;
     }
@@ -347,9 +344,6 @@ footer p{
     .navbar li{
         padding-right: 4px;
     }
-    .navbar li:hover{
-        transform: scale(1.2);
-    }
     .navbar a{
         font-size: 20px;
     }
@@ -357,24 +351,8 @@ footer p{
         visibility: hidden;
         display: none;
     }
-    .nav-toggle-label:hover{
-        transform: scale(1.5);
-    }
     /* code for underline effect taken and modified from https://www.youtube.com/watch?v=AkK8yHC4TlI&t=358s*/
-    .navbar a::before{
-        content: '';
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 0;
-        height: 2px;
-        background-color: #a8e265;
-        transition: .6s;
-    }
-    .navbar a:hover::before{
-        width: 100%;
-        background-color: #cd7c0c;
-    } #hero-text{
+  #hero-text{
         left: 44px;
     }
     /* main text home page*/
@@ -392,7 +370,7 @@ footer p{
     }
     .right img{
         float: right;
-        width: 35vw;
+        width: 32vw;
     }
     .right-text{
         font-size: 28px;
@@ -412,18 +390,7 @@ footer p{
     }
     /* <-------------------------------------GALLERY PAGE-------------------> */
     .gallery{
-        column-count: 3;
-    }
-    .gallery .image img{
-        border-top-right-radius: 2rem;
-        border-bottom-left-radius: 2rem;
-        transition: all 0.3s ease;
-    }
-    .gallery .image:hover img{
-        transform: scale(1.1);
-    }
-    .image{
-        width: 100%;
+        column-count: 2;
     }
 /*<---------------------------------------contact us---------------------------->*/
     #form-background{
@@ -452,24 +419,6 @@ footer p{
         background-color: #dedede;
         transform: scale(1.2);
     }
-    /*<----------------------------------------- THANK YOU PAGE -------------->*/
-
-    /* footer*/
-    footer p{
-        font-size: small;
-    }
-    .instagram:hover{
-        transform: scale(1.5);
-    }
-    .facebook:hover{
-        transform: scale(1.5);
-    }
-    .houzz:hover{
-        transform: scale(1.5);
-    }
-    .pinterest:hover{
-        transform: scale(1.5);
-    }
 }
 /*Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px){
@@ -488,13 +437,32 @@ footer p{
     p{
         font-size: 32px;
     }
-   
-    .navbar a{
-        font-size: 34px;
+    header h1:hover{
+        transform: scale(1.1);
     }
     #hero-text{
        /*top: 200px;*/
         left: 80px;
+    }
+    .navbar li:hover{
+        transform: scale(1.2);
+    }
+    .navbar a{
+        font-size: 34px;
+    }
+    .navbar a::before{
+        content: '';
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background-color: #a8e265;
+        transition: .6s;
+    }
+    .navbar a:hover::before{
+        width: 100%;
+        background-color: #cd7c0c;
     }
     .left-title{
         font-size: 40px;
@@ -512,10 +480,21 @@ footer p{
         border-top-right-radius: 2rem;
         border-bottom-left-radius: 2rem
     }
-/* <---------------------------------------------GALLERY PAGE------------------->*/
-.gallery{
-    column-count: 4;
-}
+    /* <---------------------------------------------GALLERY PAGE------------------->*/
+    .gallery{
+    column-count: 3;
+    }
+    .gallery .image img{
+        border-top-right-radius: 2rem;
+        border-bottom-left-radius: 2rem;
+        transition: all 0.3s ease; /* code taken from https://www.youtube.com/watch?v=rz_8NDyC6Xk&t=1177s */
+    }
+    .gallery .image:hover img{
+        transform: scale(1.1);/* code taken from https://www.youtube.com/watch?v=rz_8NDyC6Xk&t=1177s */
+    }
+    .image{
+        width: 100%;
+    }
 /*<----------------------------------------------------CONTACT US PAGE--------------------------->*/
 #form-background h2{
     font-size: 38px;
@@ -527,19 +506,20 @@ footer p{
     input[type=text], input[type=tel], input[type=email], select, textarea{
    width: 980px;
     } 
-
-    .table-format td{
-        font-size: 26px;
+    input[type=submit]:hover {
+        color: #384e6a;
+        background-color: #dedede;
+        transform: scale(1.2);
     }
-    #contact-container th td{
-        font-size: 26px;
+    .table-format td{
+        font-size: 24px;
     }
     .table-times{
-        font-size: 30px;
+        font-size: 28px;
         font-weight: bolder;
     }
     .contact-details{
-        font-size: 30px;
+        font-size: 28px;
     }
     #social-networks i{
         font-size: 250%;
@@ -550,11 +530,29 @@ footer p{
         padding-top: 1rem;
         padding-bottom: 1.5rem;
     }
+    footer p{
+        font-size: small;
+    }
+    .instagram:hover{
+        transform: scale(1.5);
+    }
+    .facebook:hover{
+        transform: scale(1.5);
+    }
+    .houzz:hover{
+        transform: scale(1.5);
+    }
+    .pinterest:hover{
+        transform: scale(1.5);
+    }
 }
 @media screen and (min-width: 1200px){
     #hero-text{
         top: 300px;
     }
+    .gallery{
+        column-count: 4;
+        }
     #form-background h2{
         text-align: left;
         padding-left: 8rem;
