@@ -184,12 +184,14 @@ main {
     width: 100%;
     background: url("../images/gallery_hero.webp") no-repeat center center/cover;
 }
+#gallery{
+    padding: 0 1.2rem;
+}
 .hidden-heading{
     visibility: hidden;
 }
 .gallery{
     flex-direction: column;
-    gap: 1rem;
 }
 .gallery .image img{
     width: 100%;
@@ -199,7 +201,7 @@ main {
     border-bottom-left-radius: 1rem;
 }
 .image{
-    padding: 0.2rem;
+    padding: 0.7rem;
 }
 .image img{
    width: 100%;
@@ -513,9 +515,6 @@ footer p{
 .gallery{
     column-count: 4;
 }
-.image{
-    padding: 1rem;
-}
 /*<----------------------------------------------------CONTACT US PAGE--------------------------->*/
 #form-background h2{
     font-size: 38px;
@@ -554,9 +553,6 @@ footer p{
 @media screen and (min-width: 1200px){
     #hero-text{
         top: 300px;
-    }
-    .image{
-        padding: 1.5rem;
     }
     #form-background h2{
         text-align: left;
