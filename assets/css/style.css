@@ -98,13 +98,11 @@ main {
     border-bottom-left-radius: 1rem;
 }
 /*Main content*/
-#main-text{
-    margin: 1rem;
-}
 .left img{
     width: 90vw;
     margin: 3%;
     display: inline;
+    padding-left: 0.6rem;
     border-top-right-radius: 2rem;
     border-bottom-left-radius: 2rem;
 }
@@ -116,10 +114,12 @@ main {
 .left p{
     padding:10px 20px;
     display: block;
+    padding-right: 0.7rem;
 }
 .right img{
     width: 90vw;
     margin: 3% 4%;
+    padding-left: 0.6rem;
     display: inline;
     border-top-right-radius: 2rem;
     border-bottom-left-radius: 2rem;
@@ -167,6 +167,7 @@ main {
 .about img{
     width: 90vw;
     margin: 2%;
+    padding-right: 0.7rem;
     display: inline;
     border-top-right-radius: 2rem;
     border-bottom-left-radius: 2rem;
