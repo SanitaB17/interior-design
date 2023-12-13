@@ -141,10 +141,18 @@ main {
     display: block;
     letter-spacing: 2px;
 }
-.our-gallery h4{
+.our-gallery a h4{
+    text-decoration: none;
     text-align: center;
-    padding: 2rem;
+    padding: 0.7rem;
     clear: both;
+    cursor: pointer;
+    color:black;
+    border: 2px solid #384e6a;
+    background-color: #fff1dc;
+    border-radius: 1rem;
+    margin: 1rem 2rem;
+    box-shadow: 2px 2px 7px #384e6a;
 }
 .container{
     display: flex;
@@ -296,6 +304,9 @@ footer p{
 }
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px){
+    .our-gallery a h4{
+        margin: 1rem 7rem;
+    }
     .gallery{
         flex-direction: column;
         flex-wrap: wrap;
@@ -378,6 +389,9 @@ footer p{
     }
     .right li{
         font-size: 26px;
+    }
+    .our-gallery a h4{
+        margin: 1rem 10rem;
     }
     .column{
         border-top-right-radius: 2rem;
@@ -546,6 +560,9 @@ footer p{
 @media screen and (min-width: 1200px){
     #hero-text{
         top: 300px;
+    }
+    .our-gallery a h4{
+        margin: 2rem 16rem;
     }
     .gallery{
         column-count: 4;
