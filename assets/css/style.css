@@ -149,7 +149,6 @@ main {
     cursor: pointer;
     color:black;
     border: 2px solid #384e6a;
-    background-color: #fff1dc;
     border-radius: 1rem;
     margin: 1rem 2rem;
     box-shadow: 2px 2px 7px #384e6a;
@@ -488,8 +487,7 @@ footer p{
         font-size: 36px;
     }
     .our-gallery a h4:hover{
-        color:#dedede;
-        background-color:#384e6a;
+        background-color:#dedede;
     }
     .column{
         border-top-right-radius: 2rem;
