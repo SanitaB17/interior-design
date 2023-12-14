@@ -427,11 +427,11 @@ footer p{
     input[type=submit]{
         font-size: 22px;
     }
-    input[type=submit]:hover {
+    /* input[type=submit]:hover {
         color: #384e6a;
         background-color: #dedede;
         transform: scale(1.2);
-    }
+    } */
 }
 /*Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px){
