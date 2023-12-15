@@ -88,7 +88,7 @@ main {
     font-family:'Hind Guntur', sans-serif;
     text-align: center;
     font-size: 84%;
-    background-color: rgb(250, 250, 250, .6);
+    background-color: rgb(250, 250, 250, 0.6);
     position: relative;
     top:260px;
     left: 1rem;
@@ -246,6 +246,7 @@ main {
 }
 /* code taken and modified from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_form*/
 input[type=text], input[type=tel], input[type=email], select, textarea{
+    font-family: 'Hind Guntur', sans-serif;
     max-width: 100%;
     width:560px;
     padding: 12px;
