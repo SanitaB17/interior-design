@@ -34,7 +34,10 @@
     - [404 Page](#404-page)
     - [Features to be Implemented](#features-to-be-implemented)
 - [Technology used](#technology-used)
-- [Testing](#testing)
+- [Testing and Validation](#testing-and-validation)
+  - [Bugs](#bugs)
+- [Deployment](#deployment)
+- [Credits](#credits)
 
 # UX
 
@@ -326,6 +329,7 @@ A 404 page will be implemented and displayed if a user navigates to a broken lin
 - **[Pexels](https://www.pexels.com/)** - Images were sourced from Pexels.
 - **[Image Color Picker](https://imagecolorpicker.com/)** - Was used to detect colours in images.
 - **[Convertio](https://convertio.co/)** - Was used to conver images to webp format.
+- **[Multi Device Website Mockup Generator](https://techsini.com/multi-mockup/index.php)** - Was used to check responsiveness on different devices.
 - **[ChatGPT](https://en.wikipedia.org/wiki/ChatGPT)** - Was used to create content and check for grammar.
 
 \
@@ -334,9 +338,68 @@ A 404 page will be implemented and displayed if a user navigates to a broken lin
 \
 &nbsp;
 
-# Testing
+# Testing and Validation
 
-- **User Story Testing**
+- HTML validation using [W3C Markup Validation](https://validator.w3.org/) results:
+  - [index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsanitab17.github.io%2Finterior-design%2Findex.html)
+  - [about.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsanitab17.github.io%2Finterior-design%2Fabout.html)
+  - [gallery.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsanitab17.github.io%2Finterior-design%2Fgallery.html)
+  - [contact.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsanitab17.github.io%2Finterior-design%2Fcontact.html)
+  - [thank_you.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsanitab17.github.io%2Finterior-design%2Fthank_you.html)
+  - [404.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsanitab17.github.io%2Finterior-design%2F404.html)
+
+- CSS validation using [W3C Jigsaw Validator](https://jigsaw.w3.org/css-validator/) results:
+  
+![CSS](docs/css_validator_results.JPG)
+  
+- Accessibility testing using [Wave](https://wave.webaim.org/) results:
+
+![Wave Results](docs/wave_results.JPG)
+
+- Lighthouse test results:
+  - Home Page
+  ![Desktop view](docs/lighthouse_desktop_home.JPG)
+
+  ![Mobile view](docs/lighthouse_mobile_home.JPG)
+
+  - About Page
+  
+  ![Desktop view](docs/lighthouse_desktop_about.JPG)
+
+  ![Mobile view](docs/lighthouse_mobile_about.JPG)
+
+  - Gallery Page
+
+  ![Desktop view](docs/lighthouse_desktop_gallery.JPG)
+
+  ![Mobile view](docs/lighthouse_mob_gallery.JPG)
+
+  - Contact Page
+
+  ![Desktop view](docs/lighthouse_desktop_contact.JPG)
+
+  ![Mobile view](docs/lighthouse_mob_contact.JPG)
+
+  - Thank You Page
+
+  ![Desktop view](docs/lighthouse_desktop_thank_you.JPG)
+
+  ![Mobile view](docs/lighthouse_mob_thank_you.JPG)
+
+- Functional Testing:
+
+|Test scenario|Steps|Observation| Pass |
+|-------------|------------------|-----------|-------|
+|Navigation links|Click on the menu links: home, about, gallery, contact.|Navigation links should lead to their respective pages.| Passed|
+|Navigation active state| Click on the menu links: home, about, gallery contact.|When a menu link is clicked and the page opens, a blue underline should be visible, indicating that the page is active.| Passed|
+|Mobile Menu Icon| Click on Icon| Menu should open and reveal website links.| Passed|
+|Contact form submission| Fill in the form fields and subbmit the form| Form should be submitted, and the user should be redirected to thank you page.| Passed|
+|Buttons|Click on the button|Buttons should lead to their respective pages.| Passed|
+|Footer Social media links| Click on social links: instagram, facebook, houzz, pinterest.| Social links should lead to their respective pages and open in a new tab.| Passed|
+|404 Page| Click on the "Please click to go back"| The user should be redirected to the homepage.| Passed|
+|
+
+- User Story Testing
 
 |  User Story| Expected Result | Pass|
 |-----------|-----------------|--------|
@@ -346,3 +409,89 @@ A 404 page will be implemented and displayed if a user navigates to a broken lin
 |As a user, I want to be able to easily contact the website and see contact details|  Information is easily accessible on the Contact page. | Passed |
 |As a user, I want to apply for free consultation.|  The form for a free consultation is easily accessible on the Contact page. | Passed |
 
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+## Bugs
+
+There are no bugs to fix in the final project.
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+# Deployment
+
+**Deployment to Github Pages**
+
+- The site was deployed to GitHub pages. The steps to deploy are:
+
+  1. Select the repository from the repository list.
+  2. Go to the 'Settings' tab.
+  3. In the sidebar menu, navigate to 'Pages.'
+  4. Select 'Deploy from a branch' and choose the desired branch.
+  5. Click 'Save.'
+  6. The link to access the deployed page will be displayed at the top of the page.
+
+You can access the deployed [Interior Design website here](https://sanitab17.github.io/interior-design/).
+
+**Clone the Repository**
+
+- Navigate to the GitHub Repository you want to clone to use locally:
+
+  1. Click on the code drop down button
+  2. Click on HTTPS
+  3. Copy the repository link to the clipboard
+  4. Open your IDE of choice
+  5. Type git clone copied-git-url into the IDE terminal
+
+The project will now be cloned on your local machine for use.
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+# Credits
+
+For readme,
+
+- [xttrust](https://github.com/xttrust/explore-romania?tab=readme-ov-file#features-to-be-implemented)
+
+For header, hero section and footer,
+
+- Love Running project
+
+For the header hover underline effect and gallery hover effect,
+
+- [CodingNepal](https://www.youtube.com/watch?v=AkK8yHC4TlI&t=358s)
+
+For contact form,
+
+- [W3Schools](https://www.w3schools.com/howto/howto_css_responsive_form.asp)
+
+For contact details section,
+
+- [Coffee House](https://learn.codeinstitute.net/sandbox/api/challenges/60338cca9c4983ac5d855130/files/index.html)
+
+For 404 page,
+
+- [Dee Mc](https://www.youtube.com/watch?v=Jj42_s3KnuM&t=238s)
+
+For Images,
+
+- [Pexels](https://www.pexels.com/)
+
+For favicon,
+
+- [Canva](https://www.canva.com/)
+
+For checking grammar and content,
+
+- [ChatGPT](https://en.wikipedia.org/wiki/ChatGPT)
