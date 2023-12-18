@@ -32,7 +32,9 @@
     - [Contact Page](#contact-page)
     - [Thank You Page](#thank-you-page)
     - [404 Page](#404-page)
-  
+    - [Features to be Implemented](#features-to-be-implemented)
+- [Technology used](#technology-used)
+
 # UX
 
 ## User
@@ -289,6 +291,41 @@ A 404 page will be implemented and displayed if a user navigates to a broken lin
 - Mobile view
 
 ![404 Page](docs/phone_404.JPG)
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+### Features to be Implemented
+
+- The third section of the Home Page presents images in the form of an infinite autoplay slider.
+- Lightbox functionality will be added to the Gallery Page.
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
+\
+&nbsp;
+
+# Technology used
+
+- **[HTML](https://www.youtube.com/watch?v=3OTSsq9Y0P4&t=5s)** - The structure of the Website was developed using HTML as the main language.
+- **[CSS](https://www.youtube.com/watch?v=nV9oaUglBTE)** - The Website was styled using custom CSS in an external file.
+- **[Javascript](https://www.youtube.com/watch?v=wm4F0Zqxu5A)** - Font Awesome Icons were implemented using JavaScript.
+- **[VSCode](https://en.wikipedia.org/wiki/Visual_Studio_Code)** - The website was developed using Visual Studio Code IDE.
+- **[GitHub](https://en.wikipedia.org/wiki/GitHub)** - Source code is hosted on GitHub and delpoyed using Git Pages.
+- **[Git](https://en.wikipedia.org/wiki/Git)** - Used to commit and push code during the development opf the Website.
+- **[Font Awesome](https://fontawesome.com/)** - Icons were used as the Social media links in the footer section.
+- **[Google Fonts](https://fonts.google.com/)** - Google Fonts were used to style the text on the webpage.
+- **[Canva](https://www.canva.com/)** - Icon from Canva was used as favicon.
+- **[Favicon.io](https://favicon.io/favicon-converter/)** - Was used to convert and create favicon files.
+- **[Figma](https://www.figma.com/)** - Was used to create both mobile and desktop wireframes.
+- **[Pexels](https://www.pexels.com/)** - Images were sourced from Pexels.
+- **[Image Color Picker](https://imagecolorpicker.com/)** - Was used to detect colours in images.
+- **[Convertio](https://convertio.co/)** - Was used to conver images to webp format.
+- **[ChatGPT](https://en.wikipedia.org/wiki/ChatGPT)** - Was used to create content and check for grammar.
 
 \
 &nbsp;
