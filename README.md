@@ -34,6 +34,7 @@
     - [404 Page](#404-page)
     - [Features to be Implemented](#features-to-be-implemented)
 - [Technology used](#technology-used)
+- [Testing](#testing)
 
 # UX
 
@@ -332,3 +333,16 @@ A 404 page will be implemented and displayed if a user navigates to a broken lin
 [Back to Top](#table-of-contents)
 \
 &nbsp;
+
+# Testing
+
+- **User Story Testing**
+
+|  User Story| Expected Result | Pass|
+|-----------|-----------------|--------|
+|As a user, I want to navigate the website using multiple devices and access social media.|The website should open seamlessly on various devices with different screen sizes and across multiple browsers, including Google Chrome, Microsoft Edge, Mozilla Firefox, and Safari. | Passed |
+|As a user, I want to find general information about Interior Design.| General information about Interior Design is accessible on the About page.| Passed |
+|As a user, I want to learn more about Interior Design's work.| Interior Design's work is easily accessible on the Gallery page.  | Passed |
+|As a user, I want to be able to easily contact the website and see contact details|  Information is easily accessible on the Contact page. | Passed |
+|As a user, I want to apply for free consultation.|  The form for a free consultation is easily accessible on the Contact page. | Passed |
+
