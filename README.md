@@ -6,7 +6,9 @@
 
 ![Responsive Displays](docs/techsini_screenshot.JPG)
 
+
 # Table of Contents
+
 
 - [INTERIOR DESIGN - CI Project 1](#interior-design---ci-project-1)
 - [Table of Contents](#table-of-contents)
@@ -394,11 +396,12 @@ A 404 page will be implemented and displayed if a user navigates to a broken lin
 |Navigation links|Click on the menu links: home, about, gallery, contact.|Navigation links should lead to their respective pages.| Passed|
 |Navigation active state| Click on the menu links: home, about, gallery contact.|When a menu link is clicked and the page opens, a blue underline should be visible, indicating that the page is active.| Passed|
 |Mobile Menu Icon| Click on Icon| Menu should open and reveal website links.| Passed|
-|Contact form submission| Fill in the form fields and subbmit the form| Form should be submitted, and the user should be redirected to thank you page.| Passed|
+| Contact form submission| Fill in the form fields and subbmit the form|Form should be submitted, and the user should be redirected to thank you page.| Passed|
+  Contact form submission - Missing Required Field | Fill in the form leaving one of the requred fields empty| The form does not submit and an Error is displayed to tell the user that the field is required.| Passed|
+| Contact form submission - Missing Required Field Email| Fill in the form with the required email field, intentionally without the "@" symbol. | The form does not submit and an Error is displayed to tell the user that the field is required. | Passed |
 |Buttons|Click on the button|Buttons should lead to their respective pages.| Passed|
 |Footer Social media links| Click on social links: instagram, facebook, houzz, pinterest.| Social links should lead to their respective pages and open in a new tab.| Passed|
 |404 Page| Click on the "Please click to go back"| The user should be redirected to the homepage.| Passed|
-
 
 - User Story Testing
 
