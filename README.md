@@ -304,7 +304,7 @@ A 404 page will be implemented and displayed if a user navigates to a broken lin
 
 ### Features to be Implemented
 
-- The third section of the Home Page presents images in the form of an infinite autoplay slider.
+- An infinite autoplay slider will be added to the Home Page.
 - Lightbox functionality will be added to the Gallery Page.
 
 \
@@ -358,6 +358,7 @@ A 404 page will be implemented and displayed if a user navigates to a broken lin
 
 - Lighthouse test results:
   - Home Page
+
   ![Desktop view](docs/lighthouse_desktop_home.JPG)
 
   ![Mobile view](docs/lighthouse_mobile_home.JPG)
