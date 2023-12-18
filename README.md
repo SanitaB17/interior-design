@@ -398,7 +398,7 @@ A 404 page will be implemented and displayed if a user navigates to a broken lin
 |Buttons|Click on the button|Buttons should lead to their respective pages.| Passed|
 |Footer Social media links| Click on social links: instagram, facebook, houzz, pinterest.| Social links should lead to their respective pages and open in a new tab.| Passed|
 |404 Page| Click on the "Please click to go back"| The user should be redirected to the homepage.| Passed|
-|
+
 
 - User Story Testing
 
